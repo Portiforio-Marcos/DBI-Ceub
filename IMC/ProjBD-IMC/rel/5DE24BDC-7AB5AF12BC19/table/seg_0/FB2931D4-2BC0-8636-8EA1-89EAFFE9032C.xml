@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB2931D4-2BC0-8636-8EA1-89EAFFE9032C" name="IfPs">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>57318358-3BB0-32A4-5E19-36D7DFC1C4E9</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<abbreviation>InfoPessoas</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="peso" id="3AC7E2BB-52CD-773E-A180-AA0E48E90C7C">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>77DEED7D-1A0D-2167-C227-B456E878FC2D</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="FEAA9515-0C83-FC95-54A1-F7F3BA119D4F">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>9C72D595-25F4-0676-BA4D-FE42A9318988</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diasDieta" id="89FD73C2-93C7-5DBC-D648-0D43FE2EFBB3">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>D843FB2A-2E76-30E6-5E09-BC3133D0D97A</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="diasTreino" id="4CE86DFA-731F-E3DE-0EB3-CA279C816BE2">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>18E47217-967D-0683-2A2D-79A1D6A13599</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imc_IndiceMassaCorporal_ID" id="D0D9B985-B8E5-196B-04CC-FC84ADB79836">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9AB8B4A-FE7B-C563-603C-E574440CE252" referredColumn="F3DDD927-25D4-0968-2EE9-4A0E781B7453"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83F679DC-BDE6-17CC-A7EF-6C55B7AFA7E0" name="IfPs__IDX">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>919ACC7D-6115-391A-4842-C9896727B852</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D0D9B985-B8E5-196B-04CC-FC84ADB79836"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B5B649C-23A4-9901-1B77-50A0874ED772" name="IfPs_imc_FK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>919ACC7D-6115-391A-4842-C9896727B852</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0D9B985-B8E5-196B-04CC-FC84ADB79836"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

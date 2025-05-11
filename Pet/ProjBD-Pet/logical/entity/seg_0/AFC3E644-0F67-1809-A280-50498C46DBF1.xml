@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFC3E644-0F67-1809-A280-50498C46DBF1" name="PetShop">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:10:16 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>psp</preferredAbbreviation>
+<shortName>PetShop</shortName>
+<synonym>PetShop</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial" id="304D5C4F-79E6-3014-3F45-19510D2F8DB9">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:13:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome da empresa no sistema tributario.]]></commentInRDBMS>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="0DC98276-BCCC-B8A7-958C-C6C76E8D93C7">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:19:16 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="95E29CEA-C583-2AE8-9093-CB26B87528DD">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:19:36 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato" id="9478B3A5-018D-AFD6-85AA-135110EC5A40">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:21:05 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="9B4CBD3C-3A51-58D4-B6CC-921B58201B00">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:21:14 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscricaoEstadual" id="D1A365F8-C31B-8C11-C430-706BA567518A">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:21:25 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioFuncionamento" id="62447BA7-C1B4-BABC-6C7C-7A6FC1CAD326">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:23:04 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividade" id="568B74F4-6084-F777-2D74-0679EFCEC93C">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:23:59 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

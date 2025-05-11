@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1377FDC3-6298-6FFF-2005-6DE2765BAF90" name="imc">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>D81F311D-7FF1-C210-47C2-78E0FC6DC099</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<abbreviation>IndiceMassaCorporal</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DataIMC" id="F620E201-E623-601D-C0B8-6B80D6DEB82B">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>A1E2D033-B166-12CD-667B-1D5D24A90276</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMC" id="EA59A6D9-A62A-C1F6-D6AC-2610DAB16F60">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>4305739D-9565-F60E-CD6F-F3A096B1F199</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NivelObesidade" id="721A1231-69FF-E9A0-2537-15FD4BCB6EB9">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>0AFB6F38-271E-0836-F09B-11AD35C86A78</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IndiceMassaCorporal_ID" id="F3DDD927-25D4-0968-2EE9-4A0E781B7453">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Clt_Cliente_ID" id="BD8BD342-2D1A-8A27-3140-4E98F885DD17">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E3C6D2D-70DA-C775-4DAC-2D03BA4E7F1C" referredColumn="90802AA8-614F-0088-8400-88D940248F6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DDFDFA3-7BA3-CAD8-33AE-7C09B9EA49FD" name="IndiceMassaCorporal_PK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F3DDD927-25D4-0968-2EE9-4A0E781B7453"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E995433-9C1E-046B-19A2-28644BDF3E89" name="imc_Clt_FK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>BD0B3368-8345-8CC8-A46F-40C07794DFDA</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD8BD342-2D1A-8A27-3140-4E98F885DD17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

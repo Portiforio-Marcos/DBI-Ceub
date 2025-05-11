@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33F8D403-85D5-3667-0A3E-5294E31D7BCA" name="Clt">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>932F8F82-1908-2723-86AE-70F8C84727C3</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<abbreviation>Cliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="209F5E1A-BB90-DD1C-0085-F1048040C484">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>D33AE671-BB95-CC47-B3FF-D3E0F7D433F0</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="35E6D86D-4C1A-47E6-5C4C-7F1A6845A22C">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>658C336B-FFD4-C152-4965-306B91417255</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero" id="924966BD-670E-608D-5A0F-A5229694E013">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>0139A30B-5651-F634-4AA8-90A023C64B4C</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preferenciaContato" id="6107DDB0-55D3-1E24-39BD-EAABDF74A22C">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>F36BBB06-7914-1B60-8C7C-6C82F345C186</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoPreferenciaContato" id="A0019C9F-1536-5263-5FB6-B305CDF5BE07">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>09CB108C-7780-8C33-514E-27B85B559CF1</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimento" id="245BA328-DE1C-0F55-7AB0-82F5EEC9164F">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>396B832F-A72B-7DDE-1145-81B1D2AA6CA4</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID" id="90802AA8-614F-0088-8400-88D940248F6E">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79783BA6-BCEB-EF3F-B176-29B535B6D6B1" name="Cliente_PK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="90802AA8-614F-0088-8400-88D940248F6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

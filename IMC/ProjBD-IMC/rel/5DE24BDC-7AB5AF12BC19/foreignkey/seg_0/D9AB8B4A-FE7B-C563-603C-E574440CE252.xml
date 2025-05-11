@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D9AB8B4A-FE7B-C563-603C-E574440CE252" containerWithKeyObject="FB2931D4-2BC0-8636-8EA1-89EAFFE9032C" localFKIndex="4B5B649C-23A4-9901-1B77-50A0874ED772" name="IfPs_imc_FK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:25:46 UTC</createdTime>
+<generatorID>919ACC7D-6115-391A-4842-C9896727B852</generatorID>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<referredTableLongName>imc</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1377FDC3-6298-6FFF-2005-6DE2765BAF90</referredTableID>
+<keyObject>9DDFDFA3-7BA3-CAD8-33AE-7C09B9EA49FD</keyObject>
+<referredKeyID>9DDFDFA3-7BA3-CAD8-33AE-7C09B9EA49FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IndiceMassaCorporal_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

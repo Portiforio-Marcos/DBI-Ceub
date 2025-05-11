@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8504DAC5-52E9-D419-3D17-A5EC6F528C35" name="Clientes">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<generatorID>004BF3B5-B214-BF46-9910-3E98D392E9D8</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCliente" id="051964F4-2297-8213-C055-7ECC3ECF5AEF">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>48FE674E-76A7-7C1D-EECE-2DEE69AF935F</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoCliente" id="8E6D9CE3-9DB1-EBAE-588A-091FD1F532CC">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<generatorID>10DE5D2E-3CAD-EF02-BFB4-C38B46CAB7E1</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepEnderecoCliente" id="C6E746E7-628D-F681-8B3C-65B68D3D7A82">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<generatorID>873898C5-CD15-E5F5-AB54-61E8530B8D49</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonesCliente" id="6BB4032D-2E17-F597-BECA-F6A851130D5D">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Telefones do cliente, que pode ser residencial, trabalho ou contato.]]></comment>
+<generatorID>7E1BB198-5A1B-3CDD-3E9C-E93834D1806B</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneCliente" id="3CF1380F-2DC6-BF9A-499B-1D8A490A68F3">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Tipo do telefone do cliente: Celular ou Fixo.]]></comment>
+<generatorID>B4AD8018-1BF4-45AE-A3AC-8FC0C3B38A58</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emailsCliente" id="BD2C7E98-2D41-192D-EB9A-BE323B070804">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Emails do cliente.]]></comment>
+<generatorID>33FED824-84B7-C843-E0DA-6B0A1C69461A</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="logradouroEnderecoCliente" id="05D47749-D88F-8B2A-4B63-0DD76578BAB0">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<generatorID>05267A71-B8C7-B45F-3135-F6F511AAE10F</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="complementoEnderecoCliente" id="BFAFB722-38CA-667C-BA84-9693B5626863">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<generatorID>4404C9FD-A6D8-C8F8-C338-324E0F02973E</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufEnderecoCliente" id="8550E355-DF8E-A9FF-1ACB-C3AD3E4C34E3">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<generatorID>992E833D-C2F4-1CFB-F64F-30D374F278F8</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeEnderecoCliente" id="B13930A1-4343-17CD-5699-CE2530F8ACA8">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<generatorID>B56EAB06-1ADD-CE4F-1B8A-7DED7C36D760</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AD66E3B-3673-DA50-016C-BE2B982DCB1D" name="Clientes_PK">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<generatorID>84521037-2DE7-E5CC-E858-255057C14508</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

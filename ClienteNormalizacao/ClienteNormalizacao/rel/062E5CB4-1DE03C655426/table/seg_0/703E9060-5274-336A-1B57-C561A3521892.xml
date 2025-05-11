@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="703E9060-5274-336A-1B57-C561A3521892" name="Pedidos">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<generatorID>F91F0ADA-49ED-0F22-0228-F438B4691947</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeClientePedido" id="8E69F43E-B7FA-0B25-0E07-3B929DD9B192">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<generatorID>D3D28C7A-D448-31DB-984E-6A4EBB056ABA</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroPedido" id="DEC94F39-CECC-A0D1-27BE-40F3BBE74875">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>EC8C5665-8B40-9BF2-3031-AE0E34A4FD51</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="22B4BE68-A29A-CF75-B4A9-1287794CB939">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Data do pedido que foi realizada a compra.]]></comment>
+<generatorID>A1696369-631B-6E2C-4043-5DF7895E9028</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="43C81073-9127-9842-0B46-D8405440F4BD">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Horário do pedido que foi realizada a compra.]]></comment>
+<generatorID>293001E9-329A-2CA0-8DB7-6F47912DE1C5</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigoProduto" id="C8BF087D-614F-CB66-8B6A-CEEFF256176F">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Código de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>33E4B5C2-EDCE-949A-1C80-9A9812F88DB8</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeProduto" id="F839BA58-BE6D-34D3-8E3D-03ED59953600">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Nome de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>888F3C5A-BECD-9FBE-9C0D-247E1B77929A</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitarioProduto" id="BE5D22DE-5ABB-FDC6-722A-EF1E9809120E">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Preço unitário de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>F615A29A-2972-4D16-6BD3-C63AC9D8B56F</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="7C49AEB2-67D1-A4A4-8C86-65357638FE93">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Quantidade de um item de  produto que o cliente comprou.]]></comment>
+<generatorID>B0C59BE4-D9A9-FF37-A305-2EFCFD91BF06</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorTotalItemPedido" id="E0AADC4C-98A3-8411-ED74-E219535C3C0F">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[Valor total  de um item de  produto que o cliente comprou. É a multiplicação do preço unitário do produto pela quantidade de produto do item que o cliente comprou.]]></comment>
+<generatorID>C314079D-65A6-DBA0-C0B8-8A0DB0C6CEFA</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorTotalPedido" id="43DA9EF9-BCBF-6398-F5F3-A4B2D740DDFA">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-05-08 23:23:23 UTC</createdTime>
+<comment><![CDATA[O valor total do pedido é a somatório de todos os valores total de cada item do pedido. ]]></comment>
+<generatorID>3FD028E7-FF86-8B20-08B7-75CA9F6B400E</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

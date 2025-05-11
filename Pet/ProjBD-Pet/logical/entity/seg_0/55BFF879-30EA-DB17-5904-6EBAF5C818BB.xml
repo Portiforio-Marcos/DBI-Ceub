@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55BFF879-30EA-DB17-5904-6EBAF5C818BB" name="Cliente">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:25:13 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>cl</preferredAbbreviation>
+<shortName>Cliente</shortName>
+<synonym>Cliente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="629E3930-FCD7-164A-2609-F489BFA4ABCA">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:28:19 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="58F3F522-9246-9DD7-7AD5-AC9D99343E00">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:28:43 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="9249B3F3-C63C-3A2D-C0E0-F64114D998F4">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:28:50 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="0BB0DBBD-4279-30BA-8D7A-7D3325A3196A">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:34:43 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="4539AFA5-2551-4E57-C4DB-02D21161C4E8">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:35:28 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="24E9C13F-1FF0-BE25-70BE-E932424756BF">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:35:47 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="22450C2D-F8CB-E6DA-42DE-AFAB303B1EA4">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:35:48 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tutor" id="B5513D6E-C23B-477F-9634-61A02CCDEAC1">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:35:07 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

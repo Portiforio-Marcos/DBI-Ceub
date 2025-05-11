@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C607DC3-02A4-576D-48DD-25FFB0DCD78E" name="Pet">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:37:51 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>Pet</preferredAbbreviation>
+<shortName>Pet</shortName>
+<synonym>Pet</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="AB991991-5AAC-96CA-59DC-FE406CDADC0F">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:38:18 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especie" id="26441C1D-2BC0-6BBC-9DB0-0E7409A34A13">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:39:10 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="raca" id="8D30E017-C6C1-FAD3-E219-93FEB5E42D6A">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:39:23 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataNascimento" id="F635ACAF-30AE-C09E-BA12-BC729054175E">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:39:39 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="DE96DABE-BCD4-CBAC-8B84-EC312DECC332">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:39:47 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registro" id="E0186D5F-B722-D920-F31C-A04A400C3D8A">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:39:54 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anotacaoCuidados" id="495F4B5D-EE74-E8D7-4862-90D35402E25E">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-03-27 23:39:58 UTC</createdTime>
+<ownerDesignName>ProjBD-Pet</ownerDesignName>
+<engineerTo>
+<item key="ECDD3896-E307-3431-8E16-DE0D3A5662F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

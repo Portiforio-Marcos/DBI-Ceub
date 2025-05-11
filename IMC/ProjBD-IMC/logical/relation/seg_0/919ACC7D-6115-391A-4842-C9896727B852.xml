@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IMCInfoPessoas" directorySegmentName="seg_0" id="919ACC7D-6115-391A-4842-C9896727B852">
+<createdBy>edunascimentoalvess</createdBy>
+<createdTime>2025-04-11 00:10:36 UTC</createdTime>
+<ownerDesignName>ProjBD-IMC</ownerDesignName>
+<engineerTo>
+<item key="5DE24BDC-2E3C-A238-82D2-7AB5AF12BC19" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D81F311D-7FF1-C210-47C2-78E0FC6DC099</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>57318358-3BB0-32A4-5E19-36D7DFC1C4E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
